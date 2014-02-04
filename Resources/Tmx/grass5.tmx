@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" width="10" height="9" tilewidth="60" tileheight="60">
+ <tileset firstgid="1" name="grassdaoju" tilewidth="60" tileheight="70">
+  <image source="grassdaoju.png" width="300" height="210"/>
+ </tileset>
+ <layer name="mudLayer" width="10" height="9">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NggABGKGZA4mMDxKhjJFIdNjl6q0PHhPQQI49NHQBddeWfaAEAAA==
+  </data>
+ </layer>
+ <layer name="stoneLayer" width="10" height="9">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NgwA+4oZgYAFLHQaTawQpg7uchUj0PkWoB3LsvxmgBAAA=
+  </data>
+ </layer>
+ <layer name="waterLayer" width="10" height="9">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+NkYGDgYkAATjQ+DPABMT8ePi6AyzxC5tPLPHIBqe4AAEzAJGloAQAA
+  </data>
+ </layer>
+ <objectgroup name="mudObjects" width="10" height="9">
+  <object x="360" y="0" width="60" height="60"/>
+  <object x="360" y="60" width="60" height="60"/>
+  <object x="360" y="120" width="60" height="60"/>
+  <object x="360" y="180" width="60" height="60"/>
+  <object x="360" y="240" width="60" height="60"/>
+  <object x="360" y="300" width="60" height="60"/>
+  <object x="360" y="360" width="60" height="60"/>
+  <object x="420" y="360" width="60" height="60"/>
+  <object x="420" y="420" width="60" height="60"/>
+  <object x="420" y="480" width="60" height="60"/>
+  <object x="540" y="360" width="60" height="60"/>
+  <object x="300" y="360" width="60" height="60"/>
+  <object x="240" y="360" width="60" height="60"/>
+  <object x="180" y="360" width="60" height="60"/>
+  <object x="180" y="300" width="60" height="60"/>
+  <object x="180" y="240" width="60" height="60"/>
+  <object x="180" y="180" width="60" height="60"/>
+  <object x="180" y="120" width="60" height="60"/>
+  <object x="180" y="60" width="60" height="60"/>
+  <object x="180" y="0" width="60" height="60"/>
+  <object x="120" y="0" width="60" height="60"/>
+  <object x="120" y="60" width="60" height="60"/>
+  <object x="120" y="120" width="60" height="60"/>
+  <object x="60" y="120" width="60" height="60"/>
+ </objectgroup>
+ <objectgroup name="stoneObjects" width="10" height="9">
+  <object x="480" y="0" width="60" height="60"/>
+  <object x="540" y="0" width="60" height="60"/>
+  <object x="540" y="60" width="60" height="60"/>
+  <object x="0" y="420" width="60" height="60"/>
+  <object x="0" y="480" width="60" height="60"/>
+  <object x="60" y="480" width="60" height="60"/>
+  <object x="0" y="120" width="60" height="60"/>
+  <object x="480" y="360" width="60" height="60"/>
+ </objectgroup>
+ <objectgroup name="waterObjects" width="10" height="9">
+  <object x="0" y="0" width="120" height="120"/>
+  <object x="240" y="0" width="120" height="120"/>
+  <object x="240" y="120" width="120" height="120"/>
+  <object x="240" y="240" width="120" height="120"/>
+  <object x="480" y="420" width="120" height="120"/>
+ </objectgroup>
+</map>
