@@ -16,6 +16,11 @@
 python -m SimpleHTTPServer 8000
 ```
 
+在chrome中打开本地8000端口
+```
+http://0.0.0.0:8000/
+```
+
 ## 目录树   
 ```
 .
