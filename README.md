@@ -7,13 +7,16 @@
 [![](sidong.github.io/blog/assets/images/tankwar/3.png)]()
 [![](sidong.github.io/blog/assets/images/tankwar/4.png)]()
 
-**部署**   
+## Demo   
+[Demo](http://sidong.github.io/TankWar-Cocos2d-Html5)(加载非常慢)  
+
+## 部署   
 进入游戏根目录，搭建本地端口   
 ```
 python -m SimpleHTTPServer 8000
 ```
 
-**目录树**   
+## 目录树   
 ```
 .
 ├── Cocos2d-html5-canvasmenu-min.js // cocos2d-html5菜单组件
@@ -51,7 +54,7 @@ python -m SimpleHTTPServer 8000
 └── index.html // 首页
 ```
 
-**Todo**   
+## Todo   
 * 压缩图片资源，整合在一起，减少http请求   
 * 改善游戏碰撞检测和边界检测，修复bug   
 * 游戏主要逻辑添加注释，以便阅读   
