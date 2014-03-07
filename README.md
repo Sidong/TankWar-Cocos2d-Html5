@@ -2,10 +2,10 @@
 
 坦克大战是基于 `Cocos2d-HTML5` 开发的HTMl5游戏。  
 
-[![](sidong.github.io/blog/assets/images/tankwar/1.png)]()
-[![](sidong.github.io/blog/assets/images/tankwar/2.png)]()
-[![](sidong.github.io/blog/assets/images/tankwar/3.png)]()
-[![](sidong.github.io/blog/assets/images/tankwar/4.png)]()
+[![](http://sidong.github.io/blog/assets/images/tankwar/1.png)]()
+[![](http://sidong.github.io/blog/assets/images/tankwar/2.png)]()
+[![](http://sidong.github.io/blog/assets/images/tankwar/3.png)]()
+[![](http://sidong.github.io/blog/assets/images/tankwar/4.png)]()
 
 ## Demo   
 [Demo](http://sidong.github.io/TankWar-Cocos2d-Html5)(加载非常慢)  
