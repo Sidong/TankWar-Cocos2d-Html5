@@ -9,7 +9,9 @@
 
 **部署**   
 进入游戏根目录，搭建本地端口   
-> python -m SimpleHTTPServer 8000   
+```
+python -m SimpleHTTPServer 8000
+```
 
 **目录树**   
 ```
